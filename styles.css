@@ -1,0 +1,316 @@
+body {
+background-color: #F5F5F5;
+font-size: 1.1rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Roboto Slab', serif;
+font-weight: 700;
+}
+
+*{
+font-family: 'Montserrat', sans-serif;
+}
+
+/* .......................Navbar................... */
+
+nav {
+background-color: #557B83;
+padding: 0 1.6rem 0 1rem;
+}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+.nav-link {
+padding: 0.5rem 0 0 0;
+}
+
+.nav-headText {
+font-family: 'Gochi Hand', cursive;
+font-family: 700;
+font-size: 2.5rem;
+padding-top:1rem;
+}
+
+/* .......................Header................... */
+.header {
+width: 100%;
+background-color: #557B83;
+color: #e4eef0;
+padding:2rem 0 2.2rem 0;
+}
+
+
+.header-text {
+padding: 3.5rem 2rem 0 4rem;
+}
+
+.header-text p:nth-of-type(1) {
+padding: 1rem 14rem 0 0;
+}
+
+button:nth-of-type(1){
+margin-top:8rem;
+}
+
+
+
+a {
+color: inherit;
+text-decoration: inherit;
+}
+
+.header-text p:nth-of-type(2) {
+padding-top:0.3rem;
+font-size:0.9rem;
+opacity: 0.8;
+}
+
+
+
+.header-img {
+border-radius: 60px;
+padding: 1.25rem 2.30rem 1.25rem 1.25rem;
+margin: 10px auto;
+width: 100%;
+height: auto;
+}
+
+/* .......................Feature................... */
+
+.features {
+padding: 8rem 0 6rem 0;
+background-color:  #e4eef0;
+text-align:center;
+}
+
+.features-img {
+color: #557B83;
+}
+
+.features-img:hover {
+opacity: 0.7;
+}
+
+.feature-text {
+color: #557B83;
+line-height:5;
+padding-bottom: 2rem;
+}
+
+/* ......................Carousel................... */
+
+.carousell{
+background-color:  #4c8491;
+padding: 4rem 0 2rem 0;
+height: 20rem;
+width: 100%;
+color: white;
+text-align:center;
+}
+
+.carousel-item h1 {
+padding: 2rem 6rem;
+}
+
+.carousel-item h6 {
+opacity: 0.9;
+}
+
+/* .......................Pricing................... */
+
+.pricing {
+background-color:  #e4eef0;
+padding: 4rem 0;
+color: #557B83;
+}
+
+.pricing-text {
+text-align:center;
+}
+
+.pricing-text p {
+opacity: 0.8;
+}
+
+.main-box {
+    
+border: 1px solid rgba(125, 122, 122,.5);   
+    
+text-align:center;
+    
+margin:0.8rem 2.3rem 0.8rem 0 ;
+
+}
+
+
+
+.first {
+    
+font-size:1.5rem;
+
+}
+
+
+
+.second p {
+    
+font-size: 2rem;
+
+}
+
+
+
+.second li {
+
+list-style: none;
+    
+line-height:2;
+
+}
+
+
+
+.second button {
+    
+margin: 1rem 0;
+
+}
+
+
+
+#selected{
+border: 1px solid #4c8491;
+color: #4c8491;
+background:white;
+transition: 0.4s;
+}
+
+#selected:hover{
+background-color: #4c8491;
+color: white;
+}
+
+.second button {
+background-color: #4c8491;
+color: white;
+transition: 0.4s;
+}
+
+.second button:hover {
+color:white;
+opacity:0.7;
+}
+
+
+@media (min-width:992px) {
+    
+.main-box {
+        
+max-width:30%;
+    
+}
+
+
+.pricing {
+padding: 4rem 0 4rem 3rem;
+}}
+
+
+
+/*....................Gradient................*/
+
+.gradient {
+background-color:  #4c8491;
+color:white;
+text-align: center;
+padding: 3rem 0.1rem;
+}
+
+.gradient h2 {
+  font-size: 72px;
+  background: linear-gradient(to right , #9ca355, #5ef7ef ,#eaf783);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+padding:0.5rem;
+}
+
+.gradient p {
+font-size: 1.5rem;
+}
+
+/* .......................contact form................... */
+.contact-form{
+background-color:  #e4eef0;
+width: 100%;
+color: #475254;
+padding: 3rem 1rem;
+text-align:center;
+color:#557B83;
+height: 20rem;
+}
+
+.contact-form input {
+outline: none;
+border: 1.5px solid #4c8491;
+transition: 0.5s;
+padding: 0.3rem;
+margin: 1rem ;
+}
+
+.contact-form input:focus {
+border: 3px solid #4c8491;
+}
+
+.contact-form button {
+border: 1px solid #4c8491;
+color: #4c8491;
+margin: auto ;
+}
+
+.contact-form button:hover {
+background-color: #4c8491;
+color: white;
+}
+
+
+/* .......................Footer...................   */
+
+footer {
+width: 100%;
+
+background-color: #557B83;
+color: #e4eef0;
+text-align: center;
+padding: 3rem 0 1rem 0;
+}
+
+.iconss i {
+padding-right: 0.75rem;
+padding-left: 0.75rem;
+transition: 0.2s;
+}
+
+.iconss i:nth-of-type(1):hover{
+color:#b03ef7;
+}
+
+.iconss i:nth-of-type(2):hover{
+color:#3963b8;
+}
+
+.iconss i:nth-of-type(3):hover{
+color:#1DA1F2;
+}
+
+footer p {
+font-size:1rem;
+opacity:0.6;
+margin: 1rem auto;
+}
+
+
+
