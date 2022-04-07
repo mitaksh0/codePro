@@ -48,6 +48,16 @@ padding:2rem 0 2.2rem 0;
 padding: 3.5rem 2rem 0 4rem;
 }
 
+@media (max-width: 1028px) {
+    .header-text {
+    text-align: center;}
+    
+    .header-img {
+    margin: 5px 0 5px 18%;
+    padding: 0;    
+    }
+}
+
 .header-text p:nth-of-type(1) {
 padding: 1rem 14rem 0 0;
 }
